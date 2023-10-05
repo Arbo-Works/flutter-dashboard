@@ -219,7 +219,7 @@ class _DashboardStackState<T extends DashboardItem>
     }
 
     Widget result = Stack(
-      clipBehavior: Clip.hardEdge,
+      clipBehavior: Clip.none,
       children: [
         if (widget.editModeSettings.paintBackgroundLines &&
             widget.dashboardController.isEditing)

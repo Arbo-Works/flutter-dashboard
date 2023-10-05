@@ -258,7 +258,7 @@ class _DashboardLayoutController<T extends DashboardItem> with ChangeNotifier {
   late double slotEdge, verticalSlotEdge;
 
   ///
-  Map<String, _ItemCurrentLayout>? _layouts = {};
+  Map<String, _ItemCurrentLayout>? _layouts;
 
   final SplayTreeMap<int, String> _startsTree = SplayTreeMap<int, String>();
   final SplayTreeMap<int, String> _endsTree = SplayTreeMap<int, String>();
